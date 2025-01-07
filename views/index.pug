@@ -3,13 +3,16 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Dance Website
+        title Revolution Dance Academy
         style 
             include ../static/style.css 
 
     body 
         nav#navbar.top 
             ul
+                div#logo
+                    img(src="/static/dance.webp")
+                    span.text-rda RDA   
                 li #[a(href="/") Home] 
                 li #[a(href="/") About] 
                 li #[a(href="/") Services] 
@@ -19,6 +22,32 @@ html(lang="en")
         section#introSection
             div Welcome to Dance Academy
             div.small just dance
+
+        section#missionSection
+            h2 Our Mission 
+            div.card
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/dance1.jpeg")
+                    div.card-content
+                        p This is the best dance Academy 
+
+            div.card
+                h3 Dance Revolution
+                div.card-box
+                    div.card-img
+                        img(src="/static/dance2.jpeg")
+                    div.card-content
+                        p This is the best dance Academy 
+
+            div.card
+                h3 Dance Rebels
+                div.card-box
+                    div.card-img
+                        img(src="/static/dance3.jpeg")
+                    div.card-content
+                        p This is the best dance Academy 
 
         section#sponsorSection
             h2 Our Sponsors 

@@ -5,16 +5,35 @@
     padding: 0;
 }
 
+#logo{
+    display: flex;
+    color: white;
+    padding: 0;
+}
+
+#logo img{
+     height:40px;
+     background-color:rgb(232, 12, 12);  
+}
+
+#logo .text-rda {
+    padding-top: 10px;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 50px;
+}
+
 #navbar{
     background-color: rgb(232, 12, 12);
-    padding: 13px 14px;
+    padding: 18px 14px;
     font-family: 'Rubik Vinyl';
 }
 #navbar ul{
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: row;
-
 }
 
 #navbar li {
@@ -39,18 +58,18 @@
     justify-content: center;
     align-items: center;
     font-family: 'Jersey 15';
-    font-size: 35px;
+    font-size: 55px;
     background: center/cover no-repeat url("/static/da-bg.png");
-    height: 300px;
+    height: 500px;
     background-color:red ;
 }
 
 #introSection div.small{
-    font-size: 27px;
+    font-size: 47px;
 }
 
 #sponsorSection{
-    height: 300px;
+    height: auto;
     font-family: 'Jersey 15';
     font-size: 20px;
     background-color: rgba(231, 37, 37, 0.767);
@@ -59,6 +78,71 @@
 #sponsorSection h2{
     text-align: center;
     padding-top: 12px;
+}
+
+#missionSection {
+    margin: auto;
+    width: 67%;
+    height: auto;
+    display: block;
+    font-family: 'Jersey 15';
+    font-size: 20px;
+    background: url("/static/dance2.jpeg") center / cover no-repeat;
+}
+
+@media screen and (max-width: 1400px) {
+    #missionSection {
+        width: 50% !important;
+    }
+
+    .card{
+        width: 23% !important;
+    }    
+}
+
+#missionSection h2{
+    font-family: 'Jersey 15';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 20px;
+    height: auto;
+}
+
+.card h3{
+    text-align: center;
+    margin: 15px 12px;
+    color: black;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+  font-size: 19px;  
 }
 
 #footer{
