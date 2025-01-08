@@ -29,7 +29,7 @@ html(lang="en")
                 h3 Dance Perfection
                 div.card-box
                     div.card-img
-                        img(src="/static/dance1.jpeg")
+                        img(class="target-img" src="/static/dance1.jpeg")
                     div.card-content
                         p This is the best dance Academy 
 
@@ -50,9 +50,20 @@ html(lang="en")
                         p This is the best dance Academy 
 
         section#sponsorSection
-            h2 Our Sponsors 
+            h2 Our Sponsors
+            div#sponsors
+                img(src="/static/logo4.png" , alt="Sponsor Image", class="spImage")
+
+            div#sponsors
+                img(src="/static/logo2.png", alt="Sponsor Image", class="spImage")
+
+            div#sponsors
+                img(src="/static/logo3.png",  alt="Sponsor Image", class="spImage")
+
+            div#sponsors
+                img(src="/static/logo1.png",  alt="Sponsor Image", class="spImage")
 
         footer#footer
-            | footers
+            | Copyright © 2025 RevolutionDanceAcademy.com | All Rights Reserved
         script 
             include ../static/index.js

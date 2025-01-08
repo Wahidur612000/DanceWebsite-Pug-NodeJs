@@ -59,7 +59,7 @@
     align-items: center;
     font-family: 'Jersey 15';
     font-size: 55px;
-    background: center/cover no-repeat url("/static/da-bg.png");
+    background: center/cover no-repeat url("/static/dance3.jpeg");
     height: 500px;
     background-color:red ;
 }
@@ -69,20 +69,35 @@
 }
 
 #sponsorSection{
-    height: auto;
+    height: 300px;
     font-family: 'Jersey 15';
     font-size: 20px;
-    background-color: rgba(231, 37, 37, 0.767);
+    background-color: white;
 }
 
 #sponsorSection h2{
+    font-size: 36px;
+    font-family: 'Jersey 15';
     text-align: center;
     padding-top: 12px;
+    background-color: brown;
+}
+
+#sponsors{
+    display: inline-block; 
+   height: 190px; 
+   max-width: 1000px;
+   margin: 27px 56px;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
 }
 
 #missionSection {
     margin: auto;
-    width: 67%;
+    width: 100%;
     height: auto;
     display: block;
     font-family: 'Jersey 15';
@@ -137,17 +152,27 @@
     height: inherit;
 }
 
+.card-img .target-img{
+    height: inherit;
+    width: 160%;
+}
+
 .card-content{
     padding: 0 10px;
 }
 
 .card-content p{
   font-size: 19px;  
+  color: white;
 }
 
 #footer{
-    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 60px;
     background-color: black;
     font-family: 'Jersey 15';
-    font-size: 35px;
+    font-size: 25px;
 }
